@@ -71,7 +71,7 @@
 
     <hr>
 
-    <h2 id="ed"> Eduación </h2>
+    <h2 id="ed"> Educación </h2>
 
 
     <table>
@@ -108,6 +108,23 @@
         <li><a href="https://www.instagram.com/gabriel11fern" target="_blank">Instagram</a></li>
     </ul>
 
-    <h2 id="con">Contactar</h2>
+    <form id="con">
+        <hr>
+        <h1>Contactar</h1>
+        <p>Para: <input type="text" name="para" class="box"> </p>
+        <p> Temática: <input name="temática" list="browsers" placeholder="--Elige un tema--" class="box">
+            <datalist id="browsers">
+                <option value="Consulta">
+                <option value="Propuesta">
+                <option value="Reporte">
+                <option value="Otro">
+            </datalist>
+        </p>
+        <p>Asunto: <input type="text" name="asunto" class="box"></p>
+        <p>Cuerpo <br>
+            <textarea name="message" rows="15" cols="30" class="box"></textarea>
+        </p>
+        <input type="submit" value="Enviar">
 
+    </form>
 </body>

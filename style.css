@@ -44,4 +44,19 @@ td {
     max-width: 300px;
 }
 
+#con
+{
+    font-size: small;
+    font-weight: bold;
+}
+
+.box {
+    background-color: rgb(71, 71, 71);
+}
+
+::placeholder{
+    color: coral;
+    font-size: small;
+    font-style: italic;
+}
 
